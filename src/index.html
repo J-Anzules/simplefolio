@@ -88,18 +88,49 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                As a seasoned computational biologist with a Ph.D. in Quantitative and 
+                Systems Biology from the University of California, Merced, I specialize 
+                in multi-omics analysis, leveraging statistical and machine-learning 
+                models to solve complex biological problems.
+                
+                Classically trained in biology, I also have extensive experience 
+                conducting biological experiments, ranging from eukaryotic single-cell 
+                organisms to immune cellular data from mice. My hands-on experience 
+                includes using DB Facs Aria LSR and cell sorting machines, which has 
+                honed my technical skills in cellular analysis.
+                
+                My scientific journey has equipped me with a profound understanding of 
+                the interplay between genomics, proteomics, and transcriptomics, 
+                particularly in the context of disease mechanisms. Professionally, I have 
+                worked at notable institutions such as Lawrence Livermore National 
+                Laboratory and the Joint Genome Institute, where I led projects that 
+                harnessed cloud and high-performance computing resources to identify 
+                chimeric sequences, predict antibody binding, and forecast viral variants 
+                and functions.
+                
+                At PhageNet and in collaboration with Emory University, I have worked 
+                extensively with bacterial genomes and human transcriptomic, proteomic, 
+                and metabolic data to study type 2 diabetes. Currently, I am exploring 
+                the use of generative pre-trained models to identify novel cell types 
+                and infer perturbed gene regulatory networks in type 2 diabetes. My 
+                interdisciplinary experience spans from foundational biological research 
+                to advanced computational modeling, enabling me to bridge the gap between 
+                experimental and computational biology effectively.
+                
+                I am driven by the potential to translate complex biological data into 
+                actionable insights, ultimately aiming to advance our understanding of 
+                disease mechanisms and contribute to the development of innovative 
+                therapeutic strategies.
+
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/CV_JAnzules.pdf"
                 >
                   View Resume
                 </a>
@@ -117,31 +148,49 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- Math model -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">The Dynamics of IL-2 Deficiency: A Mathematical 
+                  Exploration of Autoimmune Pathology</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    Autoimmune diseases, driven by an immune system's inability to distinguish self- from 
+                    foreign-antigens, present a complex interplay of factors whose pathogenesis is not 
+                    fully understood. In response to this challenge, we developed a mathematical model 
+                    to emulate the progression of systemic autoimmune disease that was fit to experimental 
+                    data from spontaneous autoimmune reactions in the IL-2 deficient BALB/c mouse model 
+                    (IL-2 knockout, KO). Our model simulates the dynamic interactions of IL-2 cytokine 
+                    with CD4 T cells originating from both the thymus and spleen, which are crucial for 
+                    maintaining immune tolerance and preventing autoimmune disease dysregulation. Our 
+                    model-based comparative analysis identified deficient expansion trajectories in naive 
+                    and regulatory T cells within the autoimmune state compared to the wild-type counterpart. 
+                    A sensitivity analysis, using Latin Hypercube Sampling, elucidates early Treg 
+                    dysfunction, critical parameters necessary for preventing autoimmune disease and 
+                    dissects the systemic implications of IL-2 deficiency. This is the first published 
+                    mathematical model that explores early autoimmune pathogenesis in IL-2 knockout mice, 
+                    introducing a new way to study autoimmune development.
+                    <!-- Describe the project being very specific, you can use the Twitter 
+                    standard: no more than 280 characters: 
+                    complement the information: the skills learned or reinforced in 
+                    its realization and how you faced it, 
+                    prove to be proactive in the search for solutions.-->
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/PublicPreprint.pdf"
                 >
-                  See Live
+                  Preprint
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/J-Anzules/HomeostaticExpansion"
                 >
                   Source Code
                 </a>
@@ -160,7 +209,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/Projects/ModelDiagram.png"
                     />
                   </div>
                 </a>
@@ -169,34 +218,46 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- xMWAS -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Multi-Omics Integration with 
+                  xMWAS Reveals Immune Dynamics in Type 2 Diabetes</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
+                    Despite the significant health impacts of Type 2 diabetes (T2D), the 
+                    underlying mechanisms affecting pancreatic islet beta cells remain poorly 
+                    understood. This study applied a multi-omics approach to analyze the 
+                    transcriptional and biochemical profiles of islet cells from human donors 
+                    with documented T2D compared to non-diabetic controls. The individual analyses 
+                    identified 25 differentially abundant transcripts, 30 metabolites, and 30 
+                    proteins between the groups after FDR adjustment. Metabolomics pathway 
+                    analysis indicated reduced amino acid and lipid metabolism in T2D islets. 
+                    Integrated network analysis revealed disruptions in biochemical interactions 
+                    in T2D islets, with reduced overall connectivity but the emergence of tightly 
+                    correlated feature clusters. Key differences included altered immune activity, 
+                    fatty acid metabolism, and the presence of industrial additives and an herbicide, 
+                    which were more influential in the T2D network. Differences were also observed in 
+                    features related to amino acid metabolism and mitochondrial function. This study 
+                    highlights the potential of multi-omics profiling to identify candidate molecules 
+                    and mechanisms distinguishing islet cell activity in T2D, which may serve as 
+                    therapeutic targets to improve beta cell function and mitigate T2D progression.
+                                        
+                    <!-- Demonstrate in this description the skills of a programmer: such as having commitment, 
                     having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.-->
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/xMWAS_Figures.pdf"
                 >
-                  See Live
+                  More Details
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -212,7 +273,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/Projects/xMWAS.png"
                     />
                   </div>
                 </a>
@@ -221,33 +282,52 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- scGPT -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Charactization of novel cell types
+                  by generative pretrained model: scGPT
+                </h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                   
+                    Identifying unique cellular populations using RNA-Seq data is time-consuming and 
+                    expertise-dependent. To address this, I am leveraging generative pre-trained models 
+                    like single-cell GPT to characterize cellular heterogeneity from single-cell RNA-Seq 
+                    data. This approach streamlines the identification of unique cellular populations 
+                    using data science methods.
+
+                    I am currently writing an F32 grant proposal to use these models for identifying 
+                    heterogeneity in beta cells associated with Type 2 diabetes. Due to the constant stress 
+                    beta cells endure, their cellular states fluctuate, making them difficult to characterize. 
+                    Generative models like single-cell GPT can effectively identify different cellular 
+                    populations and mitigate batch effects, offering deeper insights into beta cell heterogeneity 
+                    and contributing to better therapeutic strategies.
+                    
+
+                    <!-- If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
+                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.-->
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/J-Anzules/Exploring-scGPT"
                 >
-                  See Live
+                  Source Code
                 </a>
-                <a
+                
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="#!"
                 >
                   Source Code
-                </a>
+                </a> -->
+
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -263,7 +343,67 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/Projects/scGPT_prediction.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Large Scale Beta Cell study -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Charactization of novel cell types
+                  by generative pretrained model: scGPT
+                </h3>
+                <div>
+                  <p class="mb-4">
+                   
+                    To implement single-cell GPT for characterizing heterogeneity in beta cells of 
+                    individuals with Type 2 diabetes, I am downloading and analyzing large-scale 
+                    single-cell RNA-Seq data. This process involves demonstrating that batch effects 
+                    significantly impact cellular population types. Initial datasets are sourced from 
+                    PANC-DB. Currently, I have analyzed data from only three individuals, yielding 
+                    300 identified beta cells.
+                    
+                    For a large-scale study, more cellular data is needed. Therefore, I am enhancing 
+                    the pipeline to handle large datasets efficiently, considering computational 
+                    limitations and ensuring robust statistical conclusions.
+
+                    
+
+                    <!-- If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
+                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.-->
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/J-Anzules/Code-for-Single-Cell-Analysis"
+                >
+                  Source Code
+                </a>
+                
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Projects/betacell_batch.png"
                     />
                   </div>
                 </a>
@@ -275,6 +415,210 @@
       </div>
     </section>
     <!-- /END Projects Section -->
+
+    <!-- Random Forrest - data science challenge -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="project-wrapper__text load-hidden">
+          <h3 class="project-wrapper__text-title">Charactization of novel cell types
+            by generative pretrained model: scGPT
+          </h3>
+          <div>
+            <p class="mb-4">
+             
+              Identifying unique cellular populations using RNA-Seq data is time-consuming and 
+              expertise-dependent. To address this, I am leveraging generative pre-trained models 
+              like single-cell GPT to characterize cellular heterogeneity from single-cell RNA-Seq 
+              data. This approach streamlines the identification of unique cellular populations 
+              using data science methods.
+
+              I am currently writing an F32 grant proposal to use these models for identifying 
+              heterogeneity in beta cells associated with Type 2 diabetes. Due to the constant stress 
+              beta cells endure, their cellular states fluctuate, making them difficult to characterize. 
+              Generative models like single-cell GPT can effectively identify different cellular 
+              populations and mitigate batch effects, offering deeper insights into beta cell heterogeneity 
+              and contributing to better therapeutic strategies.
+              
+
+              <!-- If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
+              Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.-->
+            </p>
+          </div>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--hero"
+            href="#!"
+          >
+            See Live
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn text-color-main"
+            href="#!"
+          >
+            Source Code
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-12">
+        <div class="project-wrapper__image load-hidden">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <div
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <img
+                alt="Project Image"
+                class="img-fluid"
+                src="assets/Projects/scGPT_prediction.png"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- /END Project -->
+
+    <!-- 3D graph neural network -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="project-wrapper__text load-hidden">
+          <h3 class="project-wrapper__text-title">Charactization of novel cell types
+            by generative pretrained model: scGPT
+          </h3>
+          <div>
+            <p class="mb-4">
+             
+              Identifying unique cellular populations using RNA-Seq data is time-consuming and 
+              expertise-dependent. To address this, I am leveraging generative pre-trained models 
+              like single-cell GPT to characterize cellular heterogeneity from single-cell RNA-Seq 
+              data. This approach streamlines the identification of unique cellular populations 
+              using data science methods.
+
+              I am currently writing an F32 grant proposal to use these models for identifying 
+              heterogeneity in beta cells associated with Type 2 diabetes. Due to the constant stress 
+              beta cells endure, their cellular states fluctuate, making them difficult to characterize. 
+              Generative models like single-cell GPT can effectively identify different cellular 
+              populations and mitigate batch effects, offering deeper insights into beta cell heterogeneity 
+              and contributing to better therapeutic strategies.
+              
+
+              <!-- If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
+              Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.-->
+            </p>
+          </div>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--hero"
+            href="#!"
+          >
+            See Live
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn text-color-main"
+            href="#!"
+          >
+            Source Code
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-12">
+        <div class="project-wrapper__image load-hidden">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <div
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <img
+                alt="Project Image"
+                class="img-fluid"
+                src="assets/Projects/scGPT_prediction.png"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- /END Project -->
+
+    <!-- ESM and Function -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="project-wrapper__text load-hidden">
+          <h3 class="project-wrapper__text-title">Charactization of novel cell types
+            by generative pretrained model: scGPT
+          </h3>
+          <div>
+            <p class="mb-4">
+             
+              Identifying unique cellular populations using RNA-Seq data is time-consuming and 
+              expertise-dependent. To address this, I am leveraging generative pre-trained models 
+              like single-cell GPT to characterize cellular heterogeneity from single-cell RNA-Seq 
+              data. This approach streamlines the identification of unique cellular populations 
+              using data science methods.
+
+              I am currently writing an F32 grant proposal to use these models for identifying 
+              heterogeneity in beta cells associated with Type 2 diabetes. Due to the constant stress 
+              beta cells endure, their cellular states fluctuate, making them difficult to characterize. 
+              Generative models like single-cell GPT can effectively identify different cellular 
+              populations and mitigate batch effects, offering deeper insights into beta cell heterogeneity 
+              and contributing to better therapeutic strategies.
+              
+
+              <!-- If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
+              Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.-->
+            </p>
+          </div>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--hero"
+            href="#!"
+          >
+            See Live
+          </a>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn text-color-main"
+            href="#!"
+          >
+            Source Code
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-12">
+        <div class="project-wrapper__image load-hidden">
+          <a rel="noreferrer" href="#!" target="_blank">
+            <div
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <img
+                alt="Project Image"
+                class="img-fluid"
+                src="assets/Projects/scGPT_prediction.png"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- /END Project -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
