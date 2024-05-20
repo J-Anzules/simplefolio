@@ -37,3 +37,36 @@
     }
   }
 }
+
+#contact-form {
+  display: flex;
+  flex-direction: column; /* Stack form fields vertically */
+  align-items: center; /* Center-align the form fields */
+  width: 100%; /* Full width of the container */
+  max-width: 600px; /* Optional: limit the maximum width */
+  margin: 0 auto; /* Center the form */
+
+  input,
+  textarea {
+    width: 100%; /* Full width of the form */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+}
